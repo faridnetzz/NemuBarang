@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".TambahDataPenemu">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edtId"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Id"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:hint="Nama"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edtTlp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Telepon"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Email"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edtAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:hint="Barang"
+            android:textSize="14sp" />
+        <EditText
+            android:id="@+id/edtLokasi"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:hint="Lokasi"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/edtTglNemu"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="45dp"
+            android:hint="Tanggal Nemu"
+            android:textSize="14sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/actionSimpan"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/colorPrimary"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:text="Simpan"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFF" />
+            <Button
+                android:id="@+id/actionHapus"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Hapus"
+                android:textColor="#FFF" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "565036365410",
+    "firebase_url": "https://nemubarang-85480.firebaseio.com",
+    "project_id": "nemubarang",
+    "storage_bucket": "nemubarang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565036365410:android:8963a433515803ccb6833b",
+        "android_client_info": {
+          "package_name": "pnj.uas.ahmadfarid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565036365410-q8jblfp7bemcj7c48fvno0rea5m87tgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvD51VYcJVvUyZtrukMtsBdpkxsihFMYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565036365410-q8jblfp7bemcj7c48fvno0rea5m87tgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

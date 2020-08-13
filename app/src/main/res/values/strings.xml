@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NemuBarang</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_maps">Maps</string>
+    <string name="map_key" translatable="false">AIzaSyBObAovkNSmisR9fh-q4hBhsS3lT2b-znU</string>
+    <string name="title_activity_main2">MainActivity</string>
+</resources>
